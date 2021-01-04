@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(90deg,rgb(76, 146, 140), rgb(167, 230, 167), rgb(216, 194, 148))
+}
+
+.container{
+    position: relative;
+    margin: 10px auto;
+    max-width: 800px;
+    padding: 7%;
+}
+.container h1{
+    font-size: 42px;
+    margin: 40px auto;
+    color: rgb(7, 7, 105);
+    font-weight: bold;
+    
+}
+.addtask{
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+}
+#text{
+ outline: none;
+ border: none;
+ width: 90%;
+ font-size: 25px;
+ background: none;
+ padding: 10px;
+ border-bottom: 3px solid blue;
+ color: rgba(21, 124, 116, 0.877);
+
+}
+#btn{
+    background : linear-gradient(90deg,rgb(62, 19, 37),rgb(250,40,60));
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 3px;
+    color: rgba(40, 127, 240, 0.719);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#btn:hover{
+    background: #cf7f7f;
+    color: blue;
+    transform: rotate(10deg);
+    
+}
+.task button{
+ padding: 10px 10px;
+}
+.element-list {
+    
+    overflow:hidden;
+}
+ul{
+    padding: 15px;
+}
+li{
+    list-style: none;
+    font-size: 22px;
+    padding: 10px 5px;
+    margin: 12px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: .3s;
+    color: rgb(34, 36, 36);
+    background-color:rgb(37, 43, 124);
+    
+}
+li:hover{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(4, 4, 51);
+    background: none;  
+}
+.checked{
+    text-decoration:line-through;
+    background-color: #c9644b;
+}
+li button{
+    font-size:29px;
+     float: right;
+     padding: 0 20px;
+     margin: 0%;
+     border-radius: 7px;
+     background: none;
+     border: none;
+     outline: none;
+     
+}
+i:hover{
+    transform: rotate(40deg);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
